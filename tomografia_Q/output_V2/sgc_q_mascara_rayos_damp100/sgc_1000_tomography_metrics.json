@@ -1,0 +1,56 @@
+{
+  "run_name": "Q ampliada, máscara sgc_q_mascara_rayos_damp100",
+  "derivada_de": "sgc_q_ampliado_300km",
+  "reutiliza": "espectros y pares de la campaña de origen; solo se repiten las inversiones",
+  "cambio_unico": "máscara + amortiguación de estaciones",
+  "stations_used": 56,
+  "vp_picks": 12317,
+  "q_pair_observations_total": 52957,
+  "domain": {
+    "lon_min": -75.1,
+    "lon_max": -72.35,
+    "lat_min": 5.3,
+    "lat_max": 8.05,
+    "max_model_depth_km": 140.0,
+    "celdas_en_mascara": 2048,
+    "procedencia": "mascara_por_rayos.json"
+  },
+  "regularizacion": {
+    "Q_LAPLACE": 3.0,
+    "Q_CELL_DAMP": 0.05,
+    "Q_STATION_DAMP": 1.0,
+    "Q_STATION_DAMP_previo": 0.15
+  },
+  "vp": {
+    "observations": 12315,
+    "input_picks": 12317,
+    "active_cells": 907,
+    "data_parameter_ratio": 13.577728776185227,
+    "initial_rms_s": 0.9962931353037745,
+    "final_rms_s": 0.6345055248673844,
+    "rms_reduction_percent": 36.31336979212241,
+    "min_hit_threshold": 10,
+    "lsmr_iterations": 281,
+    "lsmr_istop": 2
+  },
+  "q_pilot": {
+    "pair_observations_qc": 52914,
+    "observations_used": 52914,
+    "active_cells": 1169,
+    "station_terms": 56,
+    "data_parameter_ratio_cells_plus_stations": 43.19510204081632,
+    "initial_rms_s": 0.20560245833159332,
+    "final_rms_s": 0.058668789773120004,
+    "rms_reduction_percent": 71.4649376037617,
+    "median_r2": 0.1435628149426426,
+    "min_hit_threshold": 5,
+    "lsmr_iterations": 462,
+    "lsmr_istop": 2
+  },
+  "figures": {
+    "area": "C:\\Users\\claudia.parra\\Documents\\Materias_romulo\\investigacion\\tomografia_Q\\output_V2\\sgc_q_mascara_rayos_damp100\\figures\\sgc_1000_area_events_black_stations_red.png",
+    "vp": "C:\\Users\\claudia.parra\\Documents\\Materias_romulo\\investigacion\\tomografia_Q\\output_V2\\sgc_q_mascara_rayos_damp100\\figures\\sgc_1000_vp_slices.png",
+    "q": "C:\\Users\\claudia.parra\\Documents\\Materias_romulo\\investigacion\\tomografia_Q\\output_V2\\sgc_q_mascara_rayos_damp100\\figures\\sgc_1000_q_pilot.png",
+    "spectral_qc": "C:\\Users\\claudia.parra\\Documents\\Materias_romulo\\investigacion\\tomografia_Q\\output_V2\\sgc_q_mascara_rayos_damp100\\figures\\sgc_1000_spectral_qc.png"
+  }
+}

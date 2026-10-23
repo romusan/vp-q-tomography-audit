@@ -1,0 +1,44 @@
+{
+  "campana": "sgc_q_mascara_rayos_damp400",
+  "controles": 879,
+  "eventos_muestreados": 1112,
+  "rango_control_km": [
+    60.0,
+    180.0
+  ],
+  "suavizado_rbf": 25.0,
+  "nodos_superficie": 6457,
+  "profundidad_km": {
+    "min": 59.35626867823525,
+    "max": 149.53963117664637,
+    "mediana": 96.29869380294285
+  },
+  "buzamiento": {
+    "local_mediano_grados": 42.515108476720435,
+    "local_p10_grados": 15.034639071891037,
+    "local_p90_grados": 63.48259421128745,
+    "tendencia_global_grados": 18.868994671983668,
+    "azimut_maxima_pendiente_grados": 96.55229472207213,
+    "nota": "el buzamiento que describe la losa es el LOCAL; la tendencia global es un plano ajustado a una superficie curva y subestima el buzamiento real"
+  },
+  "distancia_a_control_km": {
+    "mediana": 5.597587086307086,
+    "p90": 13.977273910724021
+  },
+  "atributos_sobre_la_superficie": {
+    "dvp_percent_mediana": -0.5005424128450644,
+    "Q_mediana": 296.79607529197045,
+    "frac_nodos_con_Q_activo": 0.9984512931702029
+  },
+  "contra_slab2": {
+    "nodos_comparados": 6457,
+    "distancia_mediana_grados": 0.019854991326678204,
+    "slab2_prof_mediana_km": 92.6807785034,
+    "local_prof_mediana_km": 96.29869380294285,
+    "diferencia_mediana_km": -2.240048039580117,
+    "diferencia_abs_mediana_km": 8.188774933810478,
+    "diferencia_p90_abs_km": 27.628800867832247,
+    "fuente": "Hayes et al. (2018), sam_slab2_dep_02.23.18"
+  },
+  "nota": "la geometría se define solo con sismicidad; dVp y Q entran como atributos muestreados, nunca como restricción geométrica"
+}

@@ -1,0 +1,442 @@
+\begin{thebibliography}{48}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Aki and Lee(1976)}]{Aki1976}
+\bibinfo{author}{Aki, K.}, \bibinfo{author}{Lee, W.H.K.}, \bibinfo{year}{1976}.
+\newblock \bibinfo{title}{Determination of three-dimensional velocity anomalies
+  under a seismic array using first p arrival times from local earthquakes: 1.
+  a homogeneous initial model}.
+\newblock \bibinfo{journal}{Journal of Geophysical Research}
+  \bibinfo{volume}{81}, \bibinfo{pages}{4381--4399}.
+\newblock \DOIprefix\doi{10.1029/JB081i023p04381}.
+%Type = Misc
+\bibitem[{Alc{\'a}rcel and G{\'o}mez(2019)}]{GomezTapias2019}
+\bibinfo{author}{Alc{\'a}rcel, F.A.}, \bibinfo{author}{G{\'o}mez, J.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Mapa geol{\'o}gico de colombia 2019}.
+\newblock \bibinfo{howpublished}{Servicio Geol{\'o}gico Colombiano}.
+\newblock \URLprefix \url{https://www2.sgc.gov.co/MGC/Paginas/mgc2M2019.aspx}.
+  \bibinfo{note}{compilers; scale 1:2 000 000}.
+%Type = Article
+\bibitem[{Anderson and Hough(1984)}]{AndersonHough1984}
+\bibinfo{author}{Anderson, J.G.}, \bibinfo{author}{Hough, S.E.},
+  \bibinfo{year}{1984}.
+\newblock \bibinfo{title}{A model for the shape of the fourier amplitude
+  spectrum of acceleration at high frequencies}.
+\newblock \bibinfo{journal}{Bulletin of the Seismological Society of America}
+  \bibinfo{volume}{74}, \bibinfo{pages}{1969--1993}.
+\newblock \DOIprefix\doi{10.1785/BSSA0740051969}.
+%Type = Article
+\bibitem[{Audemard~M. et~al.(2021)Audemard~M., Mora-P{\'a}ez and
+  Fonseca~P.}]{Audemard2021}
+\bibinfo{author}{Audemard~M., F.A.}, \bibinfo{author}{Mora-P{\'a}ez, H.},
+  \bibinfo{author}{Fonseca~P., H.A.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Net right-lateral slip of the {Eastern Frontal Fault
+  System}, {North Andes Sliver}, northwestern {South America}}.
+\newblock \bibinfo{journal}{Journal of South American Earth Sciences}
+  \bibinfo{volume}{109}, \bibinfo{pages}{103286}.
+\newblock \DOIprefix\doi{10.1016/j.jsames.2021.103286}.
+%Type = Article
+\bibitem[{Biot(1956)}]{Biot1956}
+\bibinfo{author}{Biot, M.A.}, \bibinfo{year}{1956}.
+\newblock \bibinfo{title}{Theory of propagation of elastic waves in a
+  fluid-saturated porous solid. i. low-frequency range}.
+\newblock \bibinfo{journal}{The Journal of the Acoustical Society of America}
+  \bibinfo{volume}{28}, \bibinfo{pages}{168--178}.
+\newblock \DOIprefix\doi{10.1121/1.1908239}.
+%Type = Article
+\bibitem[{Castelblanco et~al.(2025)Castelblanco, Vargas and
+  Cardozo}]{Castelblanco2025Attenuation}
+\bibinfo{author}{Castelblanco, C.A.}, \bibinfo{author}{Vargas, C.A.},
+  \bibinfo{author}{Cardozo, N.}, \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{Seismic attenuation in the middle magdalena valley,
+  colombia, and possible relation to fluid lubricated fault zones}.
+\newblock \bibinfo{journal}{Journal of South American Earth Sciences}
+  \bibinfo{volume}{153}, \bibinfo{pages}{105359}.
+\newblock \DOIprefix\doi{10.1016/j.jsames.2025.105359}.
+%Type = Masterthesis
+\bibitem[{Castelblanco~Ossa(2023)}]{CastelblancoOssa2023}
+\bibinfo{author}{Castelblanco~Ossa, C.A.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Identificaci{\'o}n mediante atenuaci{\'o}n
+  s{\'i}smica de zonas de lubricaci{\'o}n de fallas geol{\'o}gicas asociadas a
+  la migraci{\'o}n de fluidos: caso ejemplo Valle Medio del Magdalena}.
+\newblock Master's thesis. Universidad Nacional de Colombia.
+  \bibinfo{address}{Bogot{\'a}, Colombia}.
+\newblock \URLprefix \url{https://repositorio.unal.edu.co/handle/unal/86082}.
+%Type = Book
+\bibitem[{{\v{C}}erven{\'y}(2001)}]{Cerveny2001}
+\bibinfo{author}{{\v{C}}erven{\'y}, V.}, \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{Seismic Ray Theory}.
+\newblock \bibinfo{publisher}{Cambridge University Press},
+  \bibinfo{address}{Cambridge, UK}.
+\newblock \DOIprefix\doi{10.1017/CBO9780511529399}.
+%Type = Article
+\bibitem[{Crosson(1976)}]{Crosson1976}
+\bibinfo{author}{Crosson, R.S.}, \bibinfo{year}{1976}.
+\newblock \bibinfo{title}{Crustal structure modeling of earthquake data. 1.
+  simultaneous least-squares estimation of hypocenter and velocity parameters}.
+\newblock \bibinfo{journal}{Journal of Geophysical Research}
+  \bibinfo{volume}{81}, \bibinfo{pages}{3036--3046}.
+\newblock \DOIprefix\doi{10.1029/JB081i017p03036}.
+%Type = Article
+\bibitem[{Eberhart-Phillips and Chadwick(2002)}]{EberhartPhillipsChadwick2002}
+\bibinfo{author}{Eberhart-Phillips, D.}, \bibinfo{author}{Chadwick, M.},
+  \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{Three-dimensional attenuation model of the shallow
+  hikurangi subduction zone in the raukumara peninsula, new zealand}.
+\newblock \bibinfo{journal}{Journal of Geophysical Research: Solid Earth}
+  \bibinfo{volume}{107}, \bibinfo{pages}{ESE 3--1--ESE 3--15}.
+\newblock \DOIprefix\doi{10.1029/2000JB000046}.
+%Type = Article
+\bibitem[{Fong and Saunders(2011)}]{FongSaunders2011}
+\bibinfo{author}{Fong, D.C.L.}, \bibinfo{author}{Saunders, M.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{{LSMR}: An iterative algorithm for sparse
+  least-squares problems}.
+\newblock \bibinfo{journal}{SIAM Journal on Scientific Computing}
+  \bibinfo{volume}{33}, \bibinfo{pages}{2950--2971}.
+\newblock \DOIprefix\doi{10.1137/10079687X}.
+%Type = Article
+\bibitem[{Gao and Wang(2016)}]{GaoWang2016}
+\bibinfo{author}{Gao, F.}, \bibinfo{author}{Wang, Y.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Simultaneous inversion for velocity and attenuation
+  by waveform tomography}.
+\newblock \bibinfo{journal}{Journal of Applied Geophysics}
+  \bibinfo{volume}{131}, \bibinfo{pages}{103--108}.
+\newblock \DOIprefix\doi{10.1016/j.jappgeo.2016.05.012}.
+%Type = Article
+\bibitem[{Guo and Thurber(2021)}]{GuoThurber2021}
+\bibinfo{author}{Guo, H.}, \bibinfo{author}{Thurber, C.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Double-difference seismic attenuation tomography
+  method and its application to the geysers geothermal field, california}.
+\newblock \bibinfo{journal}{Geophysical Journal International}
+  \bibinfo{volume}{225}, \bibinfo{pages}{926--949}.
+\newblock \DOIprefix\doi{10.1093/gji/ggab017}.
+%Type = Article
+\bibitem[{Hacker et~al.(2003)Hacker, Abers and Peacock}]{Hacker2003}
+\bibinfo{author}{Hacker, B.R.}, \bibinfo{author}{Abers, G.A.},
+  \bibinfo{author}{Peacock, S.M.}, \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{Subduction factory 1. theoretical mineralogy,
+  densities, seismic wave speeds, and {H2O} contents}.
+\newblock \bibinfo{journal}{Journal of Geophysical Research: Solid Earth}
+  \bibinfo{volume}{108}, \bibinfo{pages}{2029}.
+\newblock \DOIprefix\doi{10.1029/2001JB001127}.
+%Type = Article
+\bibitem[{Hansen(1992)}]{Hansen1992}
+\bibinfo{author}{Hansen, P.C.}, \bibinfo{year}{1992}.
+\newblock \bibinfo{title}{Analysis of discrete ill-posed problems by means of
+  the {L}-curve}.
+\newblock \bibinfo{journal}{SIAM Review} \bibinfo{volume}{34},
+  \bibinfo{pages}{561--580}.
+\newblock \DOIprefix\doi{10.1137/1034115}.
+%Type = Book
+\bibitem[{Havskov and Ottem{\"o}ller(2010)}]{HavskovOttemoller2010}
+\bibinfo{author}{Havskov, J.}, \bibinfo{author}{Ottem{\"o}ller, L.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Routine Data Processing in Earthquake Seismology}.
+\newblock \bibinfo{publisher}{Springer}, \bibinfo{address}{Dordrecht}.
+\newblock \DOIprefix\doi{10.1007/978-90-481-8697-6}.
+%Type = Misc
+\bibitem[{Hayes(2018)}]{Hayes2018Slab2}
+\bibinfo{author}{Hayes, G.P.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Slab2 - a comprehensive subduction zone geometry
+  model}.
+\newblock \bibinfo{howpublished}{U.S. Geological Survey data release}.
+\newblock \DOIprefix\doi{10.5066/F7PV6JNV}.
+%Type = Article
+\bibitem[{van~der Hilst and Mann(1994)}]{VanDerHilst1994}
+\bibinfo{author}{van~der Hilst, R.}, \bibinfo{author}{Mann, P.},
+  \bibinfo{year}{1994}.
+\newblock \bibinfo{title}{Tectonic implications of tomographic images of
+  subducted lithosphere beneath northwestern south america}.
+\newblock \bibinfo{journal}{Geology} \bibinfo{volume}{22},
+  \bibinfo{pages}{451--454}.
+\newblock \DOIprefix\doi{10.1130/0091-7613(1994)022<0451:TIOTIO>2.3.CO;2}.
+%Type = Article
+\bibitem[{Jin et~al.(2021)Jin, Shi, Ma, Tian, Meng and Wang}]{JinEtAl2021}
+\bibinfo{author}{Jin, Z.}, \bibinfo{author}{Shi, Y.}, \bibinfo{author}{Ma, Q.},
+  \bibinfo{author}{Tian, D.}, \bibinfo{author}{Meng, Q.},
+  \bibinfo{author}{Wang, W.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Spectral-ratio tomography for seismic attenuation
+  estimation}.
+\newblock \bibinfo{journal}{Journal of Geophysics and Engineering}
+  \bibinfo{volume}{18}, \bibinfo{pages}{392--405}.
+\newblock \DOIprefix\doi{10.1093/jge/gxab025}.
+%Type = Article
+\bibitem[{van Keken et~al.(2011)van Keken, Hacker, Syracuse and
+  Abers}]{vanKeken2011}
+\bibinfo{author}{van Keken, P.E.}, \bibinfo{author}{Hacker, B.R.},
+  \bibinfo{author}{Syracuse, E.M.}, \bibinfo{author}{Abers, G.A.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Subduction factory: 4. depth-dependent flux of {H2O}
+  from subducting slabs worldwide}.
+\newblock \bibinfo{journal}{Journal of Geophysical Research: Solid Earth}
+  \bibinfo{volume}{116}, \bibinfo{pages}{B01401}.
+\newblock \DOIprefix\doi{10.1029/2010JB007922}.
+%Type = Article
+\bibitem[{L{\'e}v{\^e}que et~al.(1993)L{\'e}v{\^e}que, Rivera and
+  Wittlinger}]{Leveque1993}
+\bibinfo{author}{L{\'e}v{\^e}que, J.J.}, \bibinfo{author}{Rivera, L.},
+  \bibinfo{author}{Wittlinger, G.}, \bibinfo{year}{1993}.
+\newblock \bibinfo{title}{On the use of the checker-board test to assess the
+  resolution of tomographic inversions}.
+\newblock \bibinfo{journal}{Geophysical Journal International}
+  \bibinfo{volume}{115}, \bibinfo{pages}{313--318}.
+\newblock \DOIprefix\doi{10.1111/j.1365-246X.1993.tb05605.x}.
+%Type = Article
+\bibitem[{Londo{\~n}o et~al.(2019)Londo{\~n}o, Quintero, Vallejo, Mu{\~n}oz and
+  Romero}]{Londono2019}
+\bibinfo{author}{Londo{\~n}o, J.M.}, \bibinfo{author}{Quintero, S.},
+  \bibinfo{author}{Vallejo, K.}, \bibinfo{author}{Mu{\~n}oz, F.},
+  \bibinfo{author}{Romero, J.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Seismicity of valle medio del magdalena basin,
+  colombia}.
+\newblock \bibinfo{journal}{Journal of South American Earth Sciences}
+  \bibinfo{volume}{92}, \bibinfo{pages}{565--585}.
+\newblock \DOIprefix\doi{10.1016/j.jsames.2019.04.003}.
+%Type = Article
+\bibitem[{Londo{\~n}o and Romero(2017)}]{LondonoRomero2017}
+\bibinfo{author}{Londo{\~n}o, J.M.}, \bibinfo{author}{Romero, J.A.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Local magnitude scale for valle medio del magdalena
+  region, colombia}.
+\newblock \bibinfo{journal}{Journal of South American Earth Sciences}
+  \bibinfo{volume}{80}, \bibinfo{pages}{237--243}.
+\newblock \DOIprefix\doi{10.1016/j.jsames.2017.09.033}.
+%Type = Article
+\bibitem[{Londo{\~n}o et~al.(2020)Londo{\~n}o, Vallejo and
+  Quintero}]{Londono2020Velocity}
+\bibinfo{author}{Londo{\~n}o, J.M.}, \bibinfo{author}{Vallejo, K.},
+  \bibinfo{author}{Quintero, S.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Detailed seismic velocity structure of the caribbean
+  and nazca plates beneath valle medio del magdalena region of ne colombia}.
+\newblock \bibinfo{journal}{Journal of South American Earth Sciences}
+  \bibinfo{volume}{103}, \bibinfo{pages}{102762}.
+\newblock \DOIprefix\doi{10.1016/j.jsames.2020.102762}.
+%Type = Article
+\bibitem[{Londo{\~n}o et~al.(2022)Londo{\~n}o, Vel{\'a}squez and
+  Berm{\'u}dez}]{Londono2022Attenuation}
+\bibinfo{author}{Londo{\~n}o, J.M.}, \bibinfo{author}{Vel{\'a}squez, L.V.},
+  \bibinfo{author}{Berm{\'u}dez, J.C.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Seismic wave attenuation at valle medio del
+  magdalena, colombia}.
+\newblock \bibinfo{journal}{Journal of South American Earth Sciences}
+  \bibinfo{volume}{119}, \bibinfo{pages}{103987}.
+\newblock \DOIprefix\doi{10.1016/j.jsames.2022.103987}.
+%Type = Book
+\bibitem[{Mavko et~al.(2009)Mavko, Mukerji and Dvorkin}]{Mavko2009}
+\bibinfo{author}{Mavko, G.}, \bibinfo{author}{Mukerji, T.},
+  \bibinfo{author}{Dvorkin, J.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{The Rock Physics Handbook: Tools for Seismic Analysis
+  of Porous Media}.
+\newblock \bibinfo{edition}{2} ed., \bibinfo{publisher}{Cambridge University
+  Press}, \bibinfo{address}{Cambridge}.
+\newblock \DOIprefix\doi{10.1017/CBO9780511626753}.
+%Type = Book
+\bibitem[{Menke(2018)}]{Menke2018}
+\bibinfo{author}{Menke, W.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Geophysical Data Analysis: Discrete Inverse Theory}.
+\newblock \bibinfo{edition}{4} ed., \bibinfo{publisher}{Academic Press},
+  \bibinfo{address}{London}.
+%Type = Article
+\bibitem[{Mojica and Franco(1990)}]{MojicaFranco1990}
+\bibinfo{author}{Mojica, J.}, \bibinfo{author}{Franco, R.},
+  \bibinfo{year}{1990}.
+\newblock \bibinfo{title}{Estructura y evoluci{\'o}n tect{\'o}nica del {Valle
+  Medio y Superior del Magdalena}, {Colombia}}.
+\newblock \bibinfo{journal}{Geolog{\'i}a Colombiana} \bibinfo{volume}{17},
+  \bibinfo{pages}{41--64}.
+\newblock \URLprefix
+  \url{https://revistas.unal.edu.co/index.php/geocol/article/view/30633}.
+%Type = Article
+\bibitem[{Muller et~al.(2010)Muller, Gurevich and Lebedev}]{Muller2010}
+\bibinfo{author}{Muller, T.M.}, \bibinfo{author}{Gurevich, B.},
+  \bibinfo{author}{Lebedev, M.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Seismic wave attenuation and dispersion resulting
+  from wave-induced flow in porous rocks: A review}.
+\newblock \bibinfo{journal}{Geophysics} \bibinfo{volume}{75},
+  \bibinfo{pages}{75A147--75A164}.
+\newblock \DOIprefix\doi{10.1190/1.3463417}.
+%Type = Article
+\bibitem[{Ojeda and Havskov(2001)}]{OjedaHavskov2001}
+\bibinfo{author}{Ojeda, A.}, \bibinfo{author}{Havskov, J.},
+  \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{Crustal structure and local seismicity in colombia}.
+\newblock \bibinfo{journal}{Journal of Seismology} \bibinfo{volume}{5},
+  \bibinfo{pages}{575--593}.
+\newblock \DOIprefix\doi{10.1023/A:1012053206408}.
+%Type = Article
+\bibitem[{Pavlis and Booker(1980)}]{Pavlis1980}
+\bibinfo{author}{Pavlis, G.L.}, \bibinfo{author}{Booker, J.R.},
+  \bibinfo{year}{1980}.
+\newblock \bibinfo{title}{The mixed discrete-continuous inverse problem:
+  Application to the simultaneous determination of earthquake hypocenters and
+  velocity structure}.
+\newblock \bibinfo{journal}{Journal of Geophysical Research}
+  \bibinfo{volume}{85}, \bibinfo{pages}{4801--4810}.
+\newblock \DOIprefix\doi{10.1029/JB085iB09p04801}.
+%Type = Article
+\bibitem[{Poveda et~al.(2018)Poveda, Juli{\`a}, Schimmel and
+  Perez-Garcia}]{Poveda2018}
+\bibinfo{author}{Poveda, E.}, \bibinfo{author}{Juli{\`a}, J.},
+  \bibinfo{author}{Schimmel, M.}, \bibinfo{author}{Perez-Garcia, N.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Upper and middle crustal velocity structure of the
+  {Colombian Andes} from ambient noise tomography: Investigating
+  subduction-related magmatism in the overriding plate}.
+\newblock \bibinfo{journal}{Journal of Geophysical Research: Solid Earth}
+  \bibinfo{volume}{123}, \bibinfo{pages}{1459--1485}.
+\newblock \DOIprefix\doi{10.1002/2017JB014688}.
+%Type = Article
+\bibitem[{Quan and Harris(1997)}]{QuanHarris1997}
+\bibinfo{author}{Quan, Y.}, \bibinfo{author}{Harris, J.M.},
+  \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{Seismic attenuation tomography using the frequency
+  shift method}.
+\newblock \bibinfo{journal}{Geophysics} \bibinfo{volume}{62},
+  \bibinfo{pages}{895--905}.
+\newblock \DOIprefix\doi{10.1190/1.1444197}.
+%Type = Article
+\bibitem[{Rawlinson and Spakman(2016)}]{Rawlinson2016}
+\bibinfo{author}{Rawlinson, N.}, \bibinfo{author}{Spakman, W.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{On the use of sensitivity tests in seismic
+  tomography}.
+\newblock \bibinfo{journal}{Geophysical Journal International}
+  \bibinfo{volume}{205}, \bibinfo{pages}{1221--1243}.
+\newblock \DOIprefix\doi{10.1093/gji/ggw084}.
+%Type = Article
+\bibitem[{Safak(1997)}]{Safak1997}
+\bibinfo{author}{Safak, E.}, \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{Models and methods to characterize site amplification
+  from a pair of records}.
+\newblock \bibinfo{journal}{Earthquake Spectra} \bibinfo{volume}{13},
+  \bibinfo{pages}{97--129}.
+\newblock \DOIprefix\doi{10.1193/1.1585934}.
+%Type = Misc
+\bibitem[{Sandoval~Fl{\'o}rez et~al.(2026)Sandoval~Fl{\'o}rez, Cabrera~Zambrano
+  and Parra~Medina}]{Sandoval2026VpQArchive}
+\bibinfo{author}{Sandoval~Fl{\'o}rez, R.}, \bibinfo{author}{Cabrera~Zambrano,
+  F.H.}, \bibinfo{author}{Parra~Medina, C.P.}, \bibinfo{year}{2026}.
+\newblock \bibinfo{title}{{Vp--Q tomography parameterisation and bound audit}}.
+\newblock \URLprefix
+  \url{https://github.com/romusan/vp-q-tomography-audit/tree/v1.0.0}.
+  \bibinfo{note}{[dataset] Research archive, version 1.0.0}.
+%Type = Incollection
+\bibitem[{Schellart(2023)}]{Schellart2023}
+\bibinfo{author}{Schellart, W.P.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Subduction zones: A short review}, in:
+  \bibinfo{editor}{Duarte, J.C.} (Ed.), \bibinfo{booktitle}{Dynamics of Plate
+  Tectonics and Mantle Convection}. \bibinfo{publisher}{Elsevier},
+  \bibinfo{address}{Amsterdam}, pp. \bibinfo{pages}{321--355}.
+\newblock \DOIprefix\doi{10.1016/B978-0-323-85733-8.00009-3}.
+%Type = Article
+\bibitem[{Sep{\'u}lveda-Jaimes and
+  Cabrera-Zambrano(2018)}]{SepulvedaJaimes2018}
+\bibinfo{author}{Sep{\'u}lveda-Jaimes, F.J.},
+  \bibinfo{author}{Cabrera-Zambrano, F.H.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Tomograf{\'i}a s{\'i}smica 3d del nido s{\'i}smico de
+  bucaramanga (colombia)}.
+\newblock \bibinfo{journal}{Bolet{\'i}n de Geolog{\'i}a} \bibinfo{volume}{40},
+  \bibinfo{pages}{15--33}.
+\newblock \DOIprefix\doi{10.18273/revbol.v40n2-2018001}.
+%Type = Article
+\bibitem[{Sethian(1996)}]{Sethian1996}
+\bibinfo{author}{Sethian, J.A.}, \bibinfo{year}{1996}.
+\newblock \bibinfo{title}{A fast marching level set method for monotonically
+  advancing fronts}.
+\newblock \bibinfo{journal}{Proceedings of the National Academy of Sciences}
+  \bibinfo{volume}{93}, \bibinfo{pages}{1591--1595}.
+\newblock \DOIprefix\doi{10.1073/pnas.93.4.1591}.
+%Type = Article
+\bibitem[{Styron and Pagani(2020)}]{StyronPagani2020}
+\bibinfo{author}{Styron, R.}, \bibinfo{author}{Pagani, M.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{The {GEM} global active faults database}.
+\newblock \bibinfo{journal}{Earthquake Spectra} \bibinfo{volume}{36},
+  \bibinfo{pages}{160--180}.
+\newblock \DOIprefix\doi{10.1177/8755293020944182}.
+%Type = Article
+\bibitem[{Syracuse et~al.(2016)Syracuse, Maceira, Prieto, Zhang and
+  Ammon}]{Syracuse2016}
+\bibinfo{author}{Syracuse, E.M.}, \bibinfo{author}{Maceira, M.},
+  \bibinfo{author}{Prieto, G.A.}, \bibinfo{author}{Zhang, H.},
+  \bibinfo{author}{Ammon, C.J.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Multiple plates subducting beneath colombia, as
+  illuminated by seismicity and velocity from the joint inversion of seismic
+  and gravity data}.
+\newblock \bibinfo{journal}{Earth and Planetary Science Letters}
+  \bibinfo{volume}{444}, \bibinfo{pages}{139--149}.
+\newblock \DOIprefix\doi{10.1016/j.epsl.2016.03.050}.
+%Type = Article
+\bibitem[{Taboada et~al.(2000)Taboada, Rivera, Fuenzalida, Cisternas, Philip,
+  Bijwaard, Olaya and Rivera}]{Taboada2000}
+\bibinfo{author}{Taboada, A.}, \bibinfo{author}{Rivera, L.A.},
+  \bibinfo{author}{Fuenzalida, A.}, \bibinfo{author}{Cisternas, A.},
+  \bibinfo{author}{Philip, H.}, \bibinfo{author}{Bijwaard, H.},
+  \bibinfo{author}{Olaya, J.}, \bibinfo{author}{Rivera, C.},
+  \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{Geodynamics of the {Northern Andes}: Subductions and
+  intracontinental deformation ({Colombia})}.
+\newblock \bibinfo{journal}{Tectonics} \bibinfo{volume}{19},
+  \bibinfo{pages}{787--813}.
+\newblock \DOIprefix\doi{10.1029/2000TC900004}.
+%Type = Article
+\bibitem[{Thurber(1983)}]{Thurber1983}
+\bibinfo{author}{Thurber, C.H.}, \bibinfo{year}{1983}.
+\newblock \bibinfo{title}{Earthquake locations and three-dimensional crustal
+  structure in the coyote lake area, central california}.
+\newblock \bibinfo{journal}{Journal of Geophysical Research}
+  \bibinfo{volume}{88}, \bibinfo{pages}{8226--8236}.
+\newblock \DOIprefix\doi{10.1029/JB088iB10p08226}.
+%Type = Article
+\bibitem[{Thurber(1992)}]{Thurber1992}
+\bibinfo{author}{Thurber, C.H.}, \bibinfo{year}{1992}.
+\newblock \bibinfo{title}{Hypocenter-velocity structure coupling in local
+  earthquake tomography}.
+\newblock \bibinfo{journal}{Physics of the Earth and Planetary Interiors}
+  \bibinfo{volume}{75}, \bibinfo{pages}{55--62}.
+\newblock \DOIprefix\doi{10.1016/0031-9201(92)90117-E}.
+%Type = Article
+\bibitem[{Vavry{\v{c}}uk(2012)}]{Vavrycuk2012eikonal}
+\bibinfo{author}{Vavry{\v{c}}uk, V.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{On numerically solving the complex eikonal equation
+  using real ray-tracing methods: A comparison with the exact analytical
+  solution}.
+\newblock \bibinfo{journal}{Geophysics} \bibinfo{volume}{77},
+  \bibinfo{pages}{T109--T116}.
+\newblock \DOIprefix\doi{10.1190/GEO2011-0431.1}.
+%Type = Article
+\bibitem[{Zarifi et~al.(2007)Zarifi, Havskov and Hanyga}]{Zarifi2007}
+\bibinfo{author}{Zarifi, Z.}, \bibinfo{author}{Havskov, J.},
+  \bibinfo{author}{Hanyga, A.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{An insight into the {Bucaramanga} nest}.
+\newblock \bibinfo{journal}{Tectonophysics} \bibinfo{volume}{443},
+  \bibinfo{pages}{93--105}.
+\newblock \DOIprefix\doi{10.1016/j.tecto.2007.06.004}.
+%Type = Book
+\bibitem[{Zhao(2015)}]{Zhao2015}
+\bibinfo{author}{Zhao, D.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Multiscale Seismic Tomography}.
+\newblock \bibinfo{publisher}{Springer}, \bibinfo{address}{Tokyo}.
+\newblock \DOIprefix\doi{10.1007/978-4-431-55360-1}.
+%Type = Article
+\bibitem[{Zhao(2005)}]{Zhao2005}
+\bibinfo{author}{Zhao, H.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{A fast sweeping method for eikonal equations}.
+\newblock \bibinfo{journal}{Mathematics of Computation} \bibinfo{volume}{74},
+  \bibinfo{pages}{603--627}.
+\newblock \DOIprefix\doi{10.1090/S0025-5718-04-01678-3}.
+
+\end{thebibliography}

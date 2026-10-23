@@ -1,0 +1,90 @@
+{
+  "base": {
+    "campana": "sgc_q_mascara_rayos_damp400",
+    "techo": 300.0,
+    "celdas_activas": 1169,
+    "en_techo": 946,
+    "frac_en_techo": 0.8092386655260907,
+    "rms_final_s": 0.0589690617493849
+  },
+  "prueba": {
+    "campana": "sgc_q_techo1500",
+    "techo": 1500.0,
+    "en_techo": 743,
+    "frac_en_techo": 0.6355859709153122,
+    "rms_final_s": 0.0589690617493849
+  },
+  "cambio_rms_s": 0.0,
+  "celdas_libres_del_techo": {
+    "n": 223,
+    "q_mediana_base": 158.420437577722,
+    "q_mediana_prueba": 158.420437577722,
+    "q_p10_base": 63.94727966710526,
+    "q_p90_base": 259.9894570028269,
+    "cambio_relativo_mediano_pct": 0.0
+  },
+  "celdas_que_topaban": {
+    "n": 946,
+    "frac_que_vuelve_a_topar": 0.7854122621564482,
+    "q_mediana_al_soltar": 1500.0
+  },
+  "lectura": "si el RMS no cambia y las celdas que topaban vuelven a topar, el dato NO acota Q por arriba: en esa parte del modelo el valor publicado seria el prior. Solo la atenuación alta (Q bajo) es medición",
+  "perfil_profundidad": [
+    {
+      "z_km": 0.0,
+      "activas": 179,
+      "en_techo": 99,
+      "frac_en_techo": 0.553072625698324,
+      "q_mediana_libre": 140.57304514262717
+    },
+    {
+      "z_km": 20.0,
+      "activas": 212,
+      "en_techo": 161,
+      "frac_en_techo": 0.7594339622641509,
+      "q_mediana_libre": 122.79560929145154
+    },
+    {
+      "z_km": 40.0,
+      "activas": 213,
+      "en_techo": 189,
+      "frac_en_techo": 0.8873239436619719,
+      "q_mediana_libre": 157.26212267483436
+    },
+    {
+      "z_km": 60.0,
+      "activas": 185,
+      "en_techo": 151,
+      "frac_en_techo": 0.8162162162162162,
+      "q_mediana_libre": 192.49988585347063
+    },
+    {
+      "z_km": 80.0,
+      "activas": 151,
+      "en_techo": 143,
+      "frac_en_techo": 0.9470198675496688,
+      "q_mediana_libre": 212.22950501529942
+    },
+    {
+      "z_km": 100.0,
+      "activas": 117,
+      "en_techo": 113,
+      "frac_en_techo": 0.9658119658119658,
+      "q_mediana_libre": 175.86244901524225
+    },
+    {
+      "z_km": 120.0,
+      "activas": 75,
+      "en_techo": 67,
+      "frac_en_techo": 0.8933333333333333,
+      "q_mediana_libre": 186.29927480700093
+    },
+    {
+      "z_km": 140.0,
+      "activas": 37,
+      "en_techo": 23,
+      "frac_en_techo": 0.6216216216216216,
+      "q_mediana_libre": 191.5138365081986
+    }
+  ]
+}

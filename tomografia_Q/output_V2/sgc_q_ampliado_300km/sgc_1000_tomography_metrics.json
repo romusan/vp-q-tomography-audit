@@ -1,0 +1,53 @@
+{
+  "run_name": "Q ampliada 300 km: 56 estaciones, malla ampliada, misma máscara de dominio",
+  "waveform_inventory": "C:\\Users\\claudia.parra\\Documents\\Materias_romulo\\investigacion\\tomografia_Q\\output_V2\\data\\sgc_waveforms_q_ampliado_300km\\logs\\spectral_q_waveform_inventory.csv",
+  "stations_used": 56,
+  "xml_events_available_for_run": 1114,
+  "vp_events_used": 1112,
+  "vp_picks": 12317,
+  "trace_spectra": 12091,
+  "q_pair_observations_total": 52957,
+  "q_pair_observations_qc": 52914,
+  "trazas_en_inventario": 12309,
+  "trazas_aisladas": [],
+  "domain": {
+    "lon_min": -74.6,
+    "lon_max": -72.55,
+    "lat_min": 6.2,
+    "lat_max": 8.05,
+    "rectangular": true,
+    "nota": "sin cambios respecto a la campaña publicada"
+  },
+  "vp": {
+    "observations": 12309,
+    "input_picks": 12317,
+    "active_cells": 635,
+    "data_parameter_ratio": 19.384251968503936,
+    "initial_rms_s": 0.9961762166131056,
+    "final_rms_s": 0.6790067681564741,
+    "rms_reduction_percent": 31.83868909608928,
+    "min_hit_threshold": 10,
+    "lsmr_iterations": 239,
+    "lsmr_istop": 2
+  },
+  "q_pilot": {
+    "pair_observations_qc": 52914,
+    "observations_used": 52914,
+    "active_cells": 777,
+    "station_terms": 56,
+    "data_parameter_ratio_cells_plus_stations": 63.52220888355342,
+    "initial_rms_s": 0.20672324641094048,
+    "final_rms_s": 0.0606778513020977,
+    "rms_reduction_percent": 70.64778521256503,
+    "median_r2": 0.1435628149426426,
+    "min_hit_threshold": 5,
+    "lsmr_iterations": 405,
+    "lsmr_istop": 2
+  },
+  "figures": {
+    "area": "C:\\Users\\claudia.parra\\Documents\\Materias_romulo\\investigacion\\tomografia_Q\\output_V2\\sgc_q_ampliado_300km\\figures\\sgc_1000_area_events_black_stations_red.png",
+    "vp": "C:\\Users\\claudia.parra\\Documents\\Materias_romulo\\investigacion\\tomografia_Q\\output_V2\\sgc_q_ampliado_300km\\figures\\sgc_1000_vp_slices.png",
+    "spectral_qc": "C:\\Users\\claudia.parra\\Documents\\Materias_romulo\\investigacion\\tomografia_Q\\output_V2\\sgc_q_ampliado_300km\\figures\\sgc_1000_spectral_qc.png",
+    "q": "C:\\Users\\claudia.parra\\Documents\\Materias_romulo\\investigacion\\tomografia_Q\\output_V2\\sgc_q_ampliado_300km\\figures\\sgc_1000_q_pilot.png"
+  }
+}

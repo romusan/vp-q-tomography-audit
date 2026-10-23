@@ -1,0 +1,38 @@
+{
+  "campana_medida": "sgc_q_ampliado_300km",
+  "pares_totales": 52914,
+  "pares_trazados": 8000,
+  "semilla": 20260924,
+  "umbral_impactos_en_muestra": 1,
+  "celdas_tocadas": 1410,
+  "celdas_con_cobertura": 1410,
+  "mascara_actual": {
+    "lon": [
+      -74.6,
+      -72.55
+    ],
+    "lat": [
+      6.2,
+      8.05
+    ],
+    "prof_max_km": 180.0
+  },
+  "propuesta": {
+    "lon": [
+      -75.08163187078274,
+      -72.36645986541394
+    ],
+    "lat": [
+      5.338124326266619,
+      8.03305785123967
+    ],
+    "prof_km": [
+      0.0,
+      140.0
+    ],
+    "cobertura": 0.95
+  },
+  "celdas_con_cobertura_fuera_de_la_actual": 643,
+  "fraccion_impactos_fuera_de_la_actual": 0.28560397502182233,
+  "nota": "la propuesta es el intervalo central que acumula la cobertura pedida del peso de impactos; no es la envolvente total, que incluiría celdas rozadas por un solo rayo"
+}

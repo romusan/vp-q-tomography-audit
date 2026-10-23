@@ -1,0 +1,161 @@
+{
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 20261005,
+    "conditional_on_fixed_predictions": true,
+    "sampling_unit": "event; all retained pairs within an event remain together",
+    "campaigns": {
+      "Reference": {
+        "events": 679,
+        "pairs": 4216,
+        "E_RMS": 12.112752404821181,
+        "structure_ratio": 1.1093490625040767,
+        "station_ratio": 1.0787998299918564,
+        "component_corr": -0.918752304248583,
+        "prediction_data_corr": 0.47459421442414795,
+        "data_rms_s": 0.07018450505875251,
+        "initial_residual_rms_s": 0.12280796489380745,
+        "final_rms_s": 0.06168322973443663,
+        "residual_prediction_inner_product_mean": 6.951384720532834e-05,
+        "conditional_event_bootstrap_95CI": [
+          10.219398749412694,
+          14.148550404950951
+        ]
+      },
+      "Expanded": {
+        "events": 975,
+        "pairs": 52914,
+        "E_RMS": 12.585494137745911,
+        "structure_ratio": 3.833816335378288,
+        "station_ratio": 3.7365520634648703,
+        "component_corr": -0.98949050455279,
+        "prediction_data_corr": 0.48747063238521116,
+        "data_rms_s": 0.06941393845743697,
+        "initial_residual_rms_s": 0.20672324641094045,
+        "final_rms_s": 0.060677851302097685,
+        "residual_prediction_inner_product_mean": -0.00018607889896680692,
+        "conditional_event_bootstrap_95CI": [
+          10.895583638348453,
+          14.226321262977864
+        ]
+      },
+      "RayDomain": {
+        "events": 975,
+        "pairs": 52914,
+        "E_RMS": 15.511632613017202,
+        "structure_ratio": 2.3972355886004317,
+        "station_ratio": 2.3819393175340724,
+        "component_corr": -0.9762647506571149,
+        "prediction_data_corr": 0.5323450586860293,
+        "data_rms_s": 0.06941393845743697,
+        "initial_residual_rms_s": 0.20560245833159327,
+        "final_rms_s": 0.05864670334169349,
+        "residual_prediction_inner_product_mean": 2.922032480005132e-05,
+        "conditional_event_bootstrap_95CI": [
+          14.104939456662615,
+          16.992641303806835
+        ]
+      },
+      "Adopted": {
+        "events": 975,
+        "pairs": 52914,
+        "E_RMS": 15.047232501375252,
+        "structure_ratio": 0.9999092316843998,
+        "station_ratio": 1.0346168458207516,
+        "component_corr": -0.8679956643867518,
+        "prediction_data_corr": 0.5247444213761138,
+        "data_rms_s": 0.06941393845743697,
+        "initial_residual_rms_s": 0.20560245833159327,
+        "final_rms_s": 0.0589690617493849,
+        "residual_prediction_inner_product_mean": 2.288266135453454e-06,
+        "conditional_event_bootstrap_95CI": [
+          13.646099676515371,
+          16.507091766703052
+        ]
+      }
+    },
+    "paired_contrasts": {
+      "RayDomain_minus_Expanded": {
+        "difference_percentage_points": 2.9261384752712907,
+        "paired_event_bootstrap_95CI": [
+          2.0577237396704473,
+          4.142487272019563
+        ]
+      },
+      "Adopted_minus_RayDomain": {
+        "difference_percentage_points": -0.4644001116419503,
+        "paired_event_bootstrap_95CI": [
+          -0.6143737728871818,
+          -0.32959474910032344
+        ]
+      }
+    }
+  },
+  "controlled_experiment": {
+    "station_damping": 0.15,
+    "cell_smoothing": 3.0,
+    "cell_damping": 0.05,
+    "fixed_pairs": 52914,
+    "fits": [
+      {
+        "velocity": "InheritedVp",
+        "mask": "InheritedMask",
+        "observations": 52914,
+        "active_nodes": 777,
+        "iterations": 406,
+        "istop": 2,
+        "E_RMS": 12.585499919408626,
+        "residual_rms_s": 0.060677847288817886,
+        "archived_prediction_max_abs_difference_s": 5.306038011747283e-05,
+        "archived_residual_rms_difference_s": -4.013279798764646e-09
+      },
+      {
+        "velocity": "InheritedVp",
+        "mask": "RayMask",
+        "observations": 52914,
+        "active_nodes": 1169,
+        "iterations": 686,
+        "istop": 2,
+        "E_RMS": 15.506034713101036,
+        "residual_rms_s": 0.0586505890644962
+      },
+      {
+        "velocity": "UpdatedVp",
+        "mask": "InheritedMask",
+        "observations": 52914,
+        "active_nodes": 777,
+        "iterations": 407,
+        "istop": 2,
+        "E_RMS": 12.908315278840599,
+        "residual_rms_s": 0.06045376843389062
+      },
+      {
+        "velocity": "UpdatedVp",
+        "mask": "RayMask",
+        "observations": 52914,
+        "active_nodes": 1169,
+        "iterations": 630,
+        "istop": 2,
+        "E_RMS": 15.511637290089341,
+        "residual_rms_s": 0.058646700095153506,
+        "archived_prediction_max_abs_difference_s": 1.6930273040893784e-05,
+        "archived_residual_rms_difference_s": -3.2465399812942053e-09
+      }
+    ],
+    "interpretation_scope": "Unconstrained linear predictions only; not validation of clipped maps."
+  },
+  "bounds": {
+    "Adopted": {
+      "active_nodes": 1169,
+      "at_lower_bound": 0,
+      "lower_bound_fraction_percent": 0.0,
+      "maximum_depth_active_km": 140.0
+    },
+    "HigherCeiling": {
+      "active_nodes": 1169,
+      "at_lower_bound": 0,
+      "lower_bound_fraction_percent": 0.0,
+      "maximum_depth_active_km": 140.0
+    }
+  }
+}

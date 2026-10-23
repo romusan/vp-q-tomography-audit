@@ -1,0 +1,83 @@
+{
+  "run_name": "SGC final Vp and spectral-ratio Q preprocessing with Bucaramanga nest and extra stations",
+  "input_catalog": "C:\\Users\\claudia.parra\\Documents\\Materias_romulo\\investigacion\\tomografia_Q\\output_V2\\data\\sgc_kml_2022_2026_rms_lt1_depth_gt20\\sgc_sismos_area_2022_2026_depth_gt20_rms_lt1_strict.csv",
+  "waveform_inventory": "C:\\Users\\claudia.parra\\Documents\\Materias_romulo\\investigacion\\tomografia_Q\\output_V2\\data\\sgc_waveforms_q_spectral_final_with_nest_and_extra_stations_inventory.csv",
+  "stationxml_response_metadata": "C:\\Users\\claudia.parra\\Documents\\Materias_romulo\\investigacion\\tomografia_Q\\station_metadata\\sgc_response_xml",
+  "instrument_response_removed_for_q": true,
+  "instrument_response_output": "VEL",
+  "instrument_response_pre_filt_hz": [
+    0.5,
+    0.8,
+    15.0,
+    20.0
+  ],
+  "requested_max_events": null,
+  "xml_events_available_for_run": 1094,
+  "stations_used": 14,
+  "station_list": [
+    "BAR2",
+    "BRJC",
+    "CPAM3",
+    "CPAMP",
+    "PAM",
+    "PDSC",
+    "PTB",
+    "PTB1",
+    "VMM05",
+    "VMM07",
+    "VMM09",
+    "VMM10",
+    "VMM11",
+    "VMM12"
+  ],
+  "vp_events_used": 913,
+  "vp_picks": 4269,
+  "trace_spectra": 4083,
+  "q_pair_observations_total": 4221,
+  "q_pair_observations_qc": 4216,
+  "domain": {
+    "lon_min": -74.6,
+    "lon_max": -72.55,
+    "lat_min": 6.2,
+    "lat_max": 8.05,
+    "max_model_depth_km": 180.0,
+    "rectangular": true
+  },
+  "vp": {
+    "observations": 4258,
+    "input_picks": 4269,
+    "active_cells": 365,
+    "data_parameter_ratio": 11.665753424657535,
+    "initial_rms_s": 1.5503943276069638,
+    "final_rms_s": 0.8036958684547894,
+    "rms_reduction_percent": 48.16184152999997,
+    "min_hit_threshold": 10,
+    "lsmr_iterations": 136,
+    "lsmr_istop": 2
+  },
+  "q_pilot": {
+    "pair_observations_qc": 4216,
+    "observations_used": 4216,
+    "active_cells": 442,
+    "station_terms": 14,
+    "data_parameter_ratio_cells_plus_stations": 9.24561403508772,
+    "initial_rms_s": 0.12280796489380749,
+    "final_rms_s": 0.06168322973443665,
+    "rms_reduction_percent": 49.77261467709007,
+    "median_r2": 0.12819978790026293,
+    "min_hit_threshold": 5,
+    "lsmr_iterations": 246,
+    "lsmr_istop": 2
+  },
+  "figures": {
+    "area": "C:\\Users\\claudia.parra\\Documents\\Materias_romulo\\investigacion\\tomografia_Q\\output_V2\\sgc_final_q_extra_station_tomography\\figures\\sgc_1000_area_events_black_stations_red.png",
+    "vp": "C:\\Users\\claudia.parra\\Documents\\Materias_romulo\\investigacion\\tomografia_Q\\output_V2\\sgc_final_q_extra_station_tomography\\figures\\sgc_1000_vp_slices.png",
+    "spectral_qc": "C:\\Users\\claudia.parra\\Documents\\Materias_romulo\\investigacion\\tomografia_Q\\output_V2\\sgc_final_q_extra_station_tomography\\figures\\sgc_1000_spectral_qc.png",
+    "q": "C:\\Users\\claudia.parra\\Documents\\Materias_romulo\\investigacion\\tomografia_Q\\output_V2\\sgc_final_q_extra_station_tomography\\figures\\sgc_1000_q_pilot.png"
+  },
+  "limitations": [
+    "The inversion is a fast straight-ray diagnostic over a 20-km grid; the publication run should be repeated with the FSM/backtracing operator.",
+    "The Q branch is spectral-ratio based and now removes SGC StationXML instrument response before spectral fitting, but it remains pilot-level until stricter spectral QC and independent validation are completed.",
+    "Hypocenters are fixed to the SGC catalog; no joint hypocenter-velocity relocation is performed here."
+  ]
+}

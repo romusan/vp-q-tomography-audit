@@ -1,0 +1,121 @@
+{
+  "campana": "sgc_q_mascara_rayos_damp400",
+  "paso_malla_km": 20.0,
+  "perturbacion_vp_frac": 0.05,
+  "perturbacion_qinv_frac": 0.3,
+  "semilla": 20260924,
+  "regularizacion": {
+    "Q_LAPLACE": 3.0,
+    "Q_CELL_DAMP": 0.05,
+    "Q_STATION_DAMP": 4.0,
+    "Q_STATION_DAMP_previo": 0.15
+  },
+  "nota": "la matriz se reconstruye sobre la geometría final de la campaña y se invierte con su misma regularización; el dato sintético de Q no lleva términos de estación",
+  "resultados": [
+    {
+      "rama": "q",
+      "semiancho": 1,
+      "ruido": "bajo",
+      "sigma_s": 0.01,
+      "correlacion": 0.31727227802621155,
+      "razon_amplitud": 0.4259550255133154,
+      "iteraciones": 734,
+      "celdas": 1169,
+      "desv_terminos_estacion": 0.044739793812665164,
+      "nota_terminos": "el dato sintético no lleva términos de estación; lo que aparezca aquí es estructura absorbida",
+      "lambda_km": 40.0
+    },
+    {
+      "rama": "q",
+      "semiancho": 1,
+      "ruido": "observado",
+      "sigma_s": 0.0589690617493849,
+      "correlacion": 0.3281354038079485,
+      "razon_amplitud": 0.4591355818707334,
+      "iteraciones": 492,
+      "celdas": 1169,
+      "desv_terminos_estacion": 0.03462249606301014,
+      "nota_terminos": "el dato sintético no lleva términos de estación; lo que aparezca aquí es estructura absorbida",
+      "lambda_km": 40.0
+    },
+    {
+      "rama": "q",
+      "semiancho": 2,
+      "ruido": "bajo",
+      "sigma_s": 0.01,
+      "correlacion": 0.6737607439490125,
+      "razon_amplitud": 0.6664724964024216,
+      "iteraciones": 698,
+      "celdas": 1169,
+      "desv_terminos_estacion": 0.029314902546290825,
+      "nota_terminos": "el dato sintético no lleva términos de estación; lo que aparezca aquí es estructura absorbida",
+      "lambda_km": 80.0
+    },
+    {
+      "rama": "q",
+      "semiancho": 2,
+      "ruido": "observado",
+      "sigma_s": 0.0589690617493849,
+      "correlacion": 0.6367091628639799,
+      "razon_amplitud": 0.658404041485496,
+      "iteraciones": 448,
+      "celdas": 1169,
+      "desv_terminos_estacion": 0.022100516606006336,
+      "nota_terminos": "el dato sintético no lleva términos de estación; lo que aparezca aquí es estructura absorbida",
+      "lambda_km": 80.0
+    },
+    {
+      "rama": "q",
+      "semiancho": 3,
+      "ruido": "bajo",
+      "sigma_s": 0.01,
+      "correlacion": 0.7910834156962409,
+      "razon_amplitud": 0.7770004835387642,
+      "iteraciones": 626,
+      "celdas": 1169,
+      "desv_terminos_estacion": 0.022439776407236513,
+      "nota_terminos": "el dato sintético no lleva términos de estación; lo que aparezca aquí es estructura absorbida",
+      "lambda_km": 120.0
+    },
+    {
+      "rama": "q",
+      "semiancho": 3,
+      "ruido": "observado",
+      "sigma_s": 0.0589690617493849,
+      "correlacion": 0.7363753732832762,
+      "razon_amplitud": 0.7433589110837396,
+      "iteraciones": 439,
+      "celdas": 1169,
+      "desv_terminos_estacion": 0.019209249908433753,
+      "nota_terminos": "el dato sintético no lleva términos de estación; lo que aparezca aquí es estructura absorbida",
+      "lambda_km": 120.0
+    },
+    {
+      "rama": "q",
+      "semiancho": 4,
+      "ruido": "bajo",
+      "sigma_s": 0.01,
+      "correlacion": 0.897319825698533,
+      "razon_amplitud": 0.8525451933101663,
+      "iteraciones": 533,
+      "celdas": 1169,
+      "desv_terminos_estacion": 0.008363110099759707,
+      "nota_terminos": "el dato sintético no lleva términos de estación; lo que aparezca aquí es estructura absorbida",
+      "lambda_km": 160.0
+    },
+    {
+      "rama": "q",
+      "semiancho": 4,
+      "ruido": "observado",
+      "sigma_s": 0.0589690617493849,
+      "correlacion": 0.8438159891257901,
+      "razon_amplitud": 0.8475271141057413,
+      "iteraciones": 413,
+      "celdas": 1169,
+      "desv_terminos_estacion": 0.01626477857255169,
+      "nota_terminos": "el dato sintético no lleva términos de estación; lo que aparezca aquí es estructura absorbida",
+      "lambda_km": 160.0
+    }
+  ],
+  "Q_STATION_DAMP_usado": 0.15
+}
