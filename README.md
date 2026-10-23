@@ -36,6 +36,8 @@ No credentials, raw waveforms or private correspondence are included. The public
 
 ## Cite the archived version
 
-Version 1.0.0: https://github.com/romusan/vp-q-tomography-audit/tree/v1.0.0
+Version 1.0.1: https://github.com/romusan/vp-q-tomography-audit/tree/v1.0.1
 
-Use CITATION.cff for the three authors and version. No DOI is claimed. The immutable commit corresponding to the version tag is recorded by GitHub and can be checked with `git rev-parse v1.0.0`.
+Use CITATION.cff for the three authors and version. No DOI is claimed. The immutable commit corresponding to the version tag is recorded by GitHub and can be checked with `git rev-parse v1.0.1`.
+
+Version 1.0.1 adds final caption spacing in the submission PDF. Scientific data, diagnostic scripts and numerical results are unchanged from 1.0.0.
