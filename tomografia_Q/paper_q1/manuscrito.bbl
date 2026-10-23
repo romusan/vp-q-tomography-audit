@@ -331,8 +331,8 @@
   F.H.}, \bibinfo{author}{Parra~Medina, C.P.}, \bibinfo{year}{2026}.
 \newblock \bibinfo{title}{{Vp--Q tomography parameterisation and bound audit}}.
 \newblock \URLprefix
-  \url{https://github.com/romusan/vp-q-tomography-audit/tree/v1.0.1}.
-  \bibinfo{note}{[dataset] Research archive, version 1.0.1}.
+  \url{https://github.com/romusan/vp-q-tomography-audit/tree/v1.0.2}.
+  \bibinfo{note}{[dataset] Research archive, version 1.0.2}.
 %Type = Incollection
 \bibitem[{Schellart(2023)}]{Schellart2023}
 \bibinfo{author}{Schellart, W.P.}, \bibinfo{year}{2023}.

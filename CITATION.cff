@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: Please cite this versioned research archive together with the associated manuscript.
 title: Vp Q tomography parameterisation and bound audit
 type: dataset
-version: 1.0.1
+version: 1.0.2
 date-released: 2026-10-23
 url: https://github.com/romusan/vp-q-tomography-audit
 repository-code: https://github.com/romusan/vp-q-tomography-audit
@@ -12,7 +12,7 @@ authors:
     affiliation: Universidad ECCI
   - family-names: Cabrera Zambrano
     given-names: Francisco H.
-    affiliation: Universidad de Nariño
+    affiliation: Grupo de Investigación Pangea, Universidad de Pamplona, Pamplona, Colombia
   - family-names: Parra Medina
     given-names: Claudia Patricia
     affiliation: Universidad Militar Nueva Granada
